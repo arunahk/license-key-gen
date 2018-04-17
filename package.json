@@ -1,0 +1,37 @@
+{
+  "name": "license-key-gen",
+  "version": "0.1.0",
+  "description": "Generates and Validates license",
+  "author": "Aruna Lakmal <contact@webisto.tech> (https://www.webisto.tech)",
+  "license": "ISC",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/arunahk/license-key-gen/issues",
+    "email": "contact@webisto.tech"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/eslint lib"
+  },
+  "keywords": [
+    "license"
+  ],
+  "dependencies": {
+    "md5": "^2.2.1",
+    "uid-safe": "^2.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arunahk/license-key-gen"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^5.1.0",
+    "standard": "^11.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-es6": "^1.10.3",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
