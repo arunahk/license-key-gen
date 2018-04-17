@@ -1,9 +1,9 @@
-# license-key-gen v1.0.0
-
-The [license-key-gen](https://www.webisto.tech) library exported as [Node.js](https:nodejs.org/) modules.
+# license-key-gen
+- Generate license keys for given company details
+- The [license-key-gen](https://www.webisto.tech) library exported as [Node.js](https:nodejs.org/) modules.
 
 ## Source
-This project has been imported from [licensekey](https://www.npmjs.com/package/licensekey) in npm.org.
+This project has been imported from [license-key-gen](https://www.npmjs.com/package/license-key-gen) in npm.org.
 
 ## Docs
 
@@ -47,6 +47,7 @@ This function to be run ONLY for you to generate the license code for the client
 ```
 var licenseKey = require('license-key-gen');
 
+var userInfo = {company:"webisto.tech",street:"123 licenseKey ave", city:"city/town", state:"State/Province", zip:"postal/zip"}
 var licenseData = {info:userInfo, prodCode:"LEN100120", appVersion:"1.5", osType:'IOS8'}
 
 try{
@@ -59,7 +60,7 @@ try{
 
 if success returns
 ```
-{ errorCode: 0,  message: 'ok',  license: '3Z2RG-62WUD-T2VV8-43DD8-D76BD-0A8AD' }
+{ errorCode: 0,  message: 'ok',  license: 'W0247-4RXD3-6TW0F-0FD63-64EFD-38180' }
 ```
 
 if error, returns
@@ -72,10 +73,11 @@ On client side your application will pass the user information (Data Structure) 
 ```
 var licenseKey = require('license-key-gen');
 
-var userLicense = {info:userInfo, prodCode:"LEN100120", appVersion:"1.5", osLock:true, license:"7130-2074-776U-TY33-6431-415E-770C-6DD"}
+var userInfo = {company:"webisto.tech",street:"123 licenseKey ave", city:"city/town", state:"State/Province", zip:"postal/zip"}
+var userLicense = {info:userInfo, prodCode:"LEN100120", appVersion:"1.5", osLock:true, license:"W0247-4RXD3-6TW0F-0FD63-64EFD-38180"}
 
 try{
-    var license = licensekey.validateLicense(userLicense);
+    var license = licenseKey.validateLicense(userLicense);
     console.log(license);
 }catch(err){
     console.log(err);

@@ -1,9 +1,9 @@
 {
   "name": "license-key-gen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generates and Validates license",
   "author": "Aruna Lakmal <contact@webisto.tech> (https://www.webisto.tech)",
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js",
   "bugs": {
     "url": "https://github.com/arunahk/license-key-gen/issues",
@@ -14,7 +14,8 @@
     "lint": "./node_modules/.bin/eslint lib"
   },
   "keywords": [
-    "license"
+    "license",
+    "node"
   ],
   "dependencies": {
     "md5": "^2.2.1",
