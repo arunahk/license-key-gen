@@ -1,11 +1,5 @@
 [![Build Status](https://travis-ci.org/arunahk/license-key-gen.svg?branch=master)](https://travis-ci.org/arunahk/license-key-gen)
 
-[![Build Status](https://travis-ci.org/firebase/php-jwt.png?branch=master)](https://travis-ci.org/arunahk/license-key-gen)
-[![Latest Stable Version](https://poser.pugx.org/firebase/php-jwt/v/stable)](https://packagist.org/packages/arunahk/license-key-gen)
-[![Total Downloads](https://poser.pugx.org/firebase/php-jwt/downloads)](https://packagist.org/packages/arunahk/license-key-gen)
-[![License](https://poser.pugx.org/firebase/php-jwt/license)](https://packagist.org/packages/arunahk/license-key-gen)
-
-
 # license-key-gen
 - Generate license keys for given company details
 - The [license-key-gen](https://www.webisto.tech) library exported as [Node.js](https:nodejs.org/) modules.
