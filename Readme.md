@@ -17,7 +17,7 @@ npm install license-key-gen
 ```
 
 ## Data Structure
-To create a license key - Enter the users information that your are able to recieve
+To create a license key - Enter the users information that your are able to receive
 
 This object can be any data you wish to tie the license to - format Object
 ```
@@ -44,7 +44,7 @@ var licenseKey = require('license-key-gen');
 ```
 
 ## Create a License Key
-Then run the following code to recieve the License for the client
+Then run the following code to receive the License for the client
 This function to be run ONLY for you to generate the license code for the client
 ```
 var licenseKey = require('license-key-gen');
