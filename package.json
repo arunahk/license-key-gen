@@ -29,12 +29,12 @@
   "repository": "github:arunahk/license-key-gen",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.0.1",
-    "standard": "^14.3.1",
     "eslint": "^6.8.0",
     "eslint-config-es6": "^1.10.3",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^8.1.2",
+    "standard": "^14.3.1"
   }
 }
