@@ -23,7 +23,7 @@
     "mocha"
   ],
   "dependencies": {
-    "md5": "^2.2.1",
+    "dotenv": "^16.0.3",
     "uid-safe": "^2.1.5"
   },
   "repository": "github:arunahk/license-key-gen",
