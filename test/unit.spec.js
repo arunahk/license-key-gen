@@ -3,6 +3,7 @@
 /* Dev libs */
 const chai = require('chai')
 const expect = chai.expect
+require('dotenv').config()
 
 /* source */
 const LicenseGen = require('../lib')
@@ -25,7 +26,7 @@ describe('createLicense', () =>
     expect(license).to.be.an('object')
     expect(license).to.have.property('message', 'ok')
     expect(license).to.have.property('errorCode', 0)
-    expect(license).to.have.property('license').that.length(33)
+    expect(license).to.have.property('license').that.length(65)
   })
   console.timeEnd('createLicense')
 })
@@ -43,7 +44,7 @@ describe('validateLicense', () =>
       zip: '8014'
     }
     const userData = { info: userInfo, prodCode: 'TEST01', appVersion: '0.0.1.' }
-    const validity = LicenseGen.validateLicense(userData, 'Y35V5-41651-4VB72-D2C86-27748-A5B')
+    const validity = LicenseGen.validateLicense(userData, '436HG-RWT33-4397G-G799C-7T30N-89W0F-G4BM7-FRMFN--G3N8-F4X89-0NW70')
 
     expect(validity).to.be.an('object')
     expect(validity).to.have.property('message', 'ok')
